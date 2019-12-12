@@ -147,12 +147,12 @@ table {
 }
 
 body {
-    background: azure;
+    background: #92f590;
 }
 
 h1 {
-    background-color: thistle;
-    color: lavenderblush;
+    background-color: #b4f2b3;
+    color: #747d74;
     padding: 25px 25px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -163,4 +163,8 @@ h1 {
 div.textbody {
     margin-left: 300px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+p.embolden {
+    font-weight: bold;
 }
