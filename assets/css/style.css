@@ -184,6 +184,12 @@ h1 {
     padding-bottom: 0px;
 }
 
+h3 {
+  padding-bottom: 10px;
+  border-bottom: solid 2px;
+  border-bottom-color: black;
+}
+
 div.textbody {
   width: 500px;
   margin: 0 auto;
