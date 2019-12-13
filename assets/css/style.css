@@ -94,7 +94,7 @@ video {
 
   /* Typography */
   font-size: 100%;
-  vertical-align: baseline;
+
 
   /* Visual */
   border: 0;
@@ -147,22 +147,53 @@ table {
 }
 
 body {
-    background: #92f590;
+    background: #999999;
+}
+
+a:hover {
+    background-color: #111;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  background-color: teal;
+}
+
+li {
+  float: right;
+}
+
+li{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  border-left: 1px solid #999;
 }
 
 h1 {
-    background-color: #b4f2b3;
     color: #747d74;
-    padding: 25px 25px;
-    text-align: center;
+    padding-left: 100px;
+    display: inline;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 300%;
-    margin-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 div.textbody {
-    margin-left: 300px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  padding-top:20px;
+  background-color: #efefef;
+}
+
+div.image{
+  float: left;
 }
 
 p.embolden {
