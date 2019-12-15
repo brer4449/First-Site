@@ -147,26 +147,24 @@ table {
 }
 
 body {
-    background: #999999;
+    background: #dae0db;
 }
 
 a:hover {
-    background-color: #111;
+    background-color: violet;
 }
 
 ul.header {
+  border-radius: 10px;
   list-style-type: none;
   margin: 0px auto;
-  padding: 10px;
-  background-color: teal;
+  padding: 8px;
+  background-color: #d8eddd;
   width: 800px;
 }
 
-li {
-  float: right;
-}
-
 li{
+  float: right;
   display: block;
   color: white;
   text-align: center;
@@ -200,6 +198,7 @@ div.textbody {
 
 div.image{
   float: left;
+  padding-right: 5px;
 }
 
 p.embolden {
@@ -207,5 +206,17 @@ p.embolden {
 }
 
 span {
-  background-color: tomato;
+  border-radius: 8px;
+  background-color: #bfdbc6;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: block;
+  position: fixed;
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 10px;
 }
