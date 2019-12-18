@@ -155,12 +155,11 @@ a:hover {
 }
 
 ul.header {
-  border-radius: 10px;
   list-style-type: none;
   margin: 0px auto;
   padding: 8px;
   background-color: #d8eddd;
-  width: 800px;
+  width: 1350px;
 }
 
 li{
@@ -175,7 +174,7 @@ li{
 
 h1 {
     color: #747d74;
-    padding-left: 100px;
+    padding-left: 165px;
     display: inline;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 300%;
@@ -183,22 +182,29 @@ h1 {
 }
 
 h3 {
+  font-size: 180%;
+  color: #747d74;
   padding-bottom: 10px;
   border-bottom: solid 2px;
-  border-bottom-color: black;
+  border-bottom-color: #747d74;
 }
 
 div.textbody {
-  width: 500px;
+  width: 960px;
   margin: 0 auto;
   padding: 30px;
   padding-top:20px;
   background-color: #efefef;
+  margin-bottom: 20px;
 }
 
-div.image{
+#image{
   float: left;
   padding-right: 5px;
+}
+
+div.image {
+  display: inline-block;
 }
 
 p.embolden {
@@ -210,7 +216,67 @@ span {
   background-color: #bfdbc6;
 }
 
+#textcover1{
+  position: absolute;
+  margin-top:240px;
+  margin-left: 140px;
+  background-color: #bfdbc6;
+  font-size: 200%;
+
+}
+
+#textcover2{
+  position: absolute;
+  margin-top: 240px;
+  margin-left: 65px;
+  background-color: #bfdbc6;
+  font-size: 200%;
+}
+
+#textcover3{
+position: absolute;
+margin-top: 240px;
+margin-left: 140px;
+background-color: #bfdbc6;
+font-size: 200%;
+}
+
+#textcover4{
+position: absolute;
+margin-top: 240px;
+margin-left: 110px;
+background-color: #bfdbc6;
+font-size: 200%;
+}
+
+#textcover5 {
+  position: absolute;
+  margin-top: 240px;
+  margin-left: 140px;
+  background-color: #bfdbc6;
+  font-size: 200%;
+}
+
+#textcover6 {
+  position: absolute;
+  margin-top: 240px;
+  margin-left: 110px;
+  background-color: #bfdbc6;
+  font-size: 200%;
+}
+
+p.spacing{
+  color: #747d74;
+  padding: 2px;
+}
+
+input.inputsize {
+  height: 200px;
+  width: 960px;
+}
+
 footer {
+  border-top: 8px solid #bfdbc6;
   left: 0;
   bottom: 0;
   width: 100%;
