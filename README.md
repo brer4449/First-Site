@@ -1,3 +1,3 @@
 ## General Info
 
-First rendition of self-bio website.
+First rendition of self-bio website. Non-responsive, without Bootstrap as instructed.
